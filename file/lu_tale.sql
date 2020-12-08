@@ -13,6 +13,9 @@
 
  Date: 05/03/2018 17:01:52 PM
 */
+drop database if exists lu_table;
+create database lu_table;
+use lu_table;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
